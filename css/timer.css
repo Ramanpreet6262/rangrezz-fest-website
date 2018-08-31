@@ -1,0 +1,20 @@
+
+.days, .hours, .minutes, .seconds {
+  display: inline-block;
+  padding: 20px;
+  width: 100px;
+  border-radius: 5px;
+}
+.days {
+  background: #ef2f3c;
+}
+.hours {
+  background: #f6f4f3;
+  color: #183059;
+}
+.minutes {
+  background: #276fbf;
+}
+.seconds {
+  background: #f0a202;
+}
