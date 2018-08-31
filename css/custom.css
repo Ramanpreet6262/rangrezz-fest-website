@@ -1,20 +1,24 @@
 #timer{
 padding: 20px;
-width: 30%;
-  height:150px;
-margin-left: 35%;
+  height: 120px;
+width: 40%;
+ margin-left: 30%;
   border:  5px solid  white;
+  border-radius: 10px;
 }
 .days, .hours, .minutes, .seconds {
   display: inline-block;
   padding: 20px;
-  width: 100px;
+  width: 80px;
   font-size: 25px;
   font-weight: bolder;
   border-radius: 5px;
+  margin-left: 4%;
+  margin-top: -5%;
 }
 .days {
   background: transparent;
+  margin-left: -10%;
 }
 .hours {
   background: transparent;
