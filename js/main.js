@@ -16,6 +16,10 @@
   /* Page Loader */
 
 
+    $(window).load(function() {
+        $('.page-loader').delay(600).fadeOut('slow');
+    });
+
   /* Adding Background Image */
 
   init_background_image = function() {
