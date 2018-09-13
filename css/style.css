@@ -17,8 +17,9 @@ body {
 }
 @media (max-device-width: 415px) {
   #rzlogo{
-    height: 50%;
-    width:50%;
+    height: 60%;
+    width:70%;
+    margin-top: 20%;
 
   }
   #rzlogo:hover{
@@ -30,7 +31,7 @@ body {
 }
 @media  (max-width:415px){
   #tagline{
-    margin-bottom: 4%!important;
+    margin-bottom: 8%!important;
   }
 }
 #wish{
@@ -1090,7 +1091,7 @@ a.logo:hover {
   top: 0;
   left: 0;
   text-align: left;
-  background: rgba(255,255,255,0.97);
+  background: #181818;
   z-index: 1030;
   -webkit-transition: height 0.27s cubic-bezier(0, 0, 0.58, 1);
   -moz-transition: height 0.27s cubic-bezier(0, 0, 0.58, 1);
@@ -1126,7 +1127,7 @@ a.logo:hover {
   position: relative;
 }
 .inner-nav ul li a {
-  color: #777;
+  color: #ffffff;
   letter-spacing: 2px;
   display: inline-block;
   -webkit-box-sizing: border-box;
@@ -1185,7 +1186,7 @@ a.logo:hover {
 .inner-nav ul li .menu-sub li a:hover,
 .menu-sub li a.active {
   background: rgba(255,255,255,0.09);
-  color: #f5f5f5 !important;
+  color: #f5f5f5!important;
 }
 .menu-sub li ul {
   left: 100%;
@@ -1305,7 +1306,7 @@ a.logo:hover {
   border-left: none;
   border-right: none;
   border-bottom: 1px solid rgba(255,255,255,0.065);
-  color: #999;
+  color: #fff;
   letter-spacing: 1px;
   cursor: pointer;
 }
@@ -1387,7 +1388,7 @@ a.logo:hover {
 .navbar-mobile:hover,
 .navbar-mobile.active {
   background: #fff;
-  color: #777;
+  color: magenta;
 }
 .navbar-mobile:active {
   -webkit-box-shadow: 0 0 35px rgba(0,0,0,0.05) inset;
@@ -1502,7 +1503,7 @@ a.logo:hover {
 }
 .main-nav.white .inner-nav ul > li > a:hover,
 .main-nav.white .inner-nav ul > li > a.active {
-  color: #000;
+  color: magenta;
 }
 .main-nav.transparent {
   background: transparent !important;
@@ -3556,4 +3557,11 @@ span.icon-close {
 
 .arc:nth-of-type(6n + 6) {
     --hue: 300
+}
+
+.Hashtag{
+  color: #4cae4c;
+}
+.flip2{
+ margin-left: 40%;
 }
